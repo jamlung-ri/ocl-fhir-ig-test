@@ -1,0 +1,13 @@
+{
+  "name" : "ocl.fhir.base",
+  "type" : "fhir.template",
+  "license" : "CC0-1.0",
+  "description" : "OCL FHIR Base - for use with HL7-published FHIR IGs",
+  "author" : "http://openconceptlab.org/fhir",
+  "canonical" : "http://fhir.openconceptlab.org/fhir/",
+  "base" : "hl7.base.template",
+  "dependencies" : {
+    "hl7.base.template" : "current"
+  },
+  "version" : "0.10.1"
+}
