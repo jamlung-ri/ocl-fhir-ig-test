@@ -1,0 +1,54 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "public-access",
+  "url": "http://example.org/StructureDefinition/public-access",
+  "version": "1.0.0",
+  "name": "PublicAccess",
+  "title": "Public Access",
+  "description": "Represents the OCL public_access attribute",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "CodeSystem"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Public Access",
+        "definition": "Represents the OCL public_access attribute"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://example.org/StructureDefinition/public-access"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://example.org/ValueSet/public-access-vs"
+        }
+      }
+    ]
+  }
+}

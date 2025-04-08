@@ -1,0 +1,103 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "ConceptClassCodeSystem",
+  "id": "concept-class-cs",
+  "title": "Concept Class Code System",
+  "description": "Code system for OCL concept_class values as identified in sample data",
+  "version": "1.0.0",
+  "url": "http://example.org/CodeSystem/concept-class-cs",
+  "concept": [
+    {
+      "code": "Diagnosis",
+      "display": "Diagnosis",
+      "definition": "A category representing diagnostic concepts"
+    },
+    {
+      "code": "Symptom",
+      "display": "Symptom",
+      "definition": "A category representing symptom concepts"
+    },
+    {
+      "code": "Finding",
+      "display": "Finding",
+      "definition": "A category representing clinical findings"
+    },
+    {
+      "code": "Symptom/Finding",
+      "display": "Symptom/Finding",
+      "definition": "A category representing both symptoms and findings"
+    },
+    {
+      "code": "Procedure",
+      "display": "Procedure",
+      "definition": "A category representing procedural concepts"
+    },
+    {
+      "code": "Drug",
+      "display": "Drug",
+      "definition": "A category representing medication/drug concepts"
+    },
+    {
+      "code": "Test",
+      "display": "Test",
+      "definition": "A category representing diagnostic test concepts"
+    },
+    {
+      "code": "LabSet",
+      "display": "LabSet",
+      "definition": "A category representing laboratory test panels"
+    },
+    {
+      "code": "MedSet",
+      "display": "MedSet",
+      "definition": "A category representing medication sets"
+    },
+    {
+      "code": "ConvSet",
+      "display": "ConvSet",
+      "definition": "A category representing convenience sets"
+    },
+    {
+      "code": "Question",
+      "display": "Question",
+      "definition": "A category representing question concepts"
+    },
+    {
+      "code": "Anatomy",
+      "display": "Anatomy",
+      "definition": "A category representing anatomical concepts"
+    },
+    {
+      "code": "Misc",
+      "display": "Miscellaneous",
+      "definition": "A category for concepts that don't fit other classes"
+    },
+    {
+      "code": "State",
+      "display": "State",
+      "definition": "A category representing various states"
+    },
+    {
+      "code": "Program",
+      "display": "Program",
+      "definition": "A category representing program-related concepts"
+    },
+    {
+      "code": "Workflow",
+      "display": "Workflow",
+      "definition": "A category representing workflow-related concepts"
+    },
+    {
+      "code": "Indicator",
+      "display": "Indicator",
+      "definition": "A category representing indicator concepts"
+    },
+    {
+      "code": "Health"
+    }
+  ],
+  "caseSensitive": true,
+  "count": 18
+}

@@ -1,0 +1,30 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "PublicAccessCodeSystem",
+  "id": "public-access-cs",
+  "title": "Public Access Code System",
+  "description": "Code system for OCL public_access values",
+  "version": "1.0.0",
+  "url": "http://example.org/CodeSystem/public-access-cs",
+  "concept": [
+    {
+      "code": "View",
+      "display": "View",
+      "definition": "Public can view the resource"
+    },
+    {
+      "code": "Edit",
+      "display": "Edit",
+      "definition": "Public can edit the resource"
+    },
+    {
+      "code": "None",
+      "display": "None",
+      "definition": "No public access to the resource"
+    }
+  ],
+  "caseSensitive": true,
+  "count": 3
+}

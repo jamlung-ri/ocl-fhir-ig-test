@@ -1,0 +1,50 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "created-by",
+  "url": "http://example.org/StructureDefinition/created-by",
+  "version": "1.0.0",
+  "name": "CreatedBy",
+  "title": "Created By",
+  "description": "Represents the OCL created_by attribute",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "CodeSystem.concept"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Created By",
+        "definition": "Represents the OCL created_by attribute"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://example.org/StructureDefinition/created-by"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}

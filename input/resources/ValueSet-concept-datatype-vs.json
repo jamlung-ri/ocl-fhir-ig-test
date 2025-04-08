@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ConceptDatatypeValueSet",
+  "id": "concept-datatype-vs",
+  "title": "Concept Datatype Value Set",
+  "description": "Allowed values for OCL concept datatype attribute",
+  "version": "1.0.0",
+  "url": "http://example.org/ValueSet/concept-datatype-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/CodeSystem/concept-datatype-cs"
+      }
+    ]
+  }
+}

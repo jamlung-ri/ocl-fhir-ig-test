@@ -1,0 +1,225 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ocl-source",
+  "url": "http://example.org/StructureDefinition/ocl-source",
+  "version": "0.1.0",
+  "name": "OCLSource",
+  "title": "OCL Source",
+  "status": "active",
+  "publisher": "Open Concept Lab",
+  "description": "Profile of FHIR CodeSystem to represent OCL Source resources",
+  "fhirVersion": "4.0.1",
+  "kind": "resource",
+  "abstract": false,
+  "type": "CodeSystem",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/CodeSystem",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "CodeSystem.extension",
+        "path": "CodeSystem.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "CodeSystem.extension:sourceType",
+        "path": "CodeSystem.extension",
+        "sliceName": "sourceType",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/StructureDefinition/source-type"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.extension:publicAccess",
+        "path": "CodeSystem.extension",
+        "sliceName": "publicAccess",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/StructureDefinition/public-access"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.extension:defaultLocale",
+        "path": "CodeSystem.extension",
+        "sliceName": "defaultLocale",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/StructureDefinition/default-locale"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.extension:supportedLocales",
+        "path": "CodeSystem.extension",
+        "sliceName": "supportedLocales",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/StructureDefinition/supported-locales"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.extension:website",
+        "path": "CodeSystem.extension",
+        "sliceName": "website",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/StructureDefinition/website"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.extension:customValidationSchema",
+        "path": "CodeSystem.extension",
+        "sliceName": "customValidationSchema",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/StructureDefinition/custom-validation-schema"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.extension:collectionReference",
+        "path": "CodeSystem.extension",
+        "sliceName": "collectionReference",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/StructureDefinition/collection-reference"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.extension:shortCode",
+        "path": "CodeSystem.extension",
+        "sliceName": "shortCode",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://example.org/StructureDefinition/short-code"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.url",
+        "path": "CodeSystem.url",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.identifier",
+        "path": "CodeSystem.identifier",
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.version",
+        "path": "CodeSystem.version",
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.name",
+        "path": "CodeSystem.name",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.title",
+        "path": "CodeSystem.title",
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.status",
+        "path": "CodeSystem.status",
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.experimental",
+        "path": "CodeSystem.experimental",
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.date",
+        "path": "CodeSystem.date",
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.publisher",
+        "path": "CodeSystem.publisher",
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.description",
+        "path": "CodeSystem.description",
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.copyright",
+        "path": "CodeSystem.copyright",
+        "mustSupport": true
+      },
+      {
+        "id": "CodeSystem.content",
+        "path": "CodeSystem.content",
+        "mustSupport": true
+      }
+    ]
+  }
+}

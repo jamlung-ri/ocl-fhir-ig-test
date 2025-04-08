@@ -1,0 +1,54 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "data-type",
+  "url": "http://example.org/StructureDefinition/data-type",
+  "version": "1.0.0",
+  "name": "DataType",
+  "title": "Data Type",
+  "description": "Represents the OCL datatype attribute",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "CodeSystem.concept"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Data Type",
+        "definition": "Represents the OCL datatype attribute"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://example.org/StructureDefinition/data-type"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://example.org/ValueSet/concept-datatype-vs"
+        }
+      }
+    ]
+  }
+}

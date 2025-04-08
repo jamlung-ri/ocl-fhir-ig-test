@@ -1,0 +1,50 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "collection-reference",
+  "url": "http://example.org/StructureDefinition/collection-reference",
+  "version": "1.0.0",
+  "name": "CollectionReference",
+  "title": "Collection Reference",
+  "description": "Represents the OCL collection_reference attribute",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "CodeSystem"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Collection Reference",
+        "definition": "Represents the OCL collection_reference attribute"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://example.org/StructureDefinition/collection-reference"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      }
+    ]
+  }
+}

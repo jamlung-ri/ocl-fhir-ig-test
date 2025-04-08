@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "PublicAccessValueSet",
+  "id": "public-access-vs",
+  "title": "Public Access Value Set",
+  "description": "Allowed values for OCL public_access attribute",
+  "version": "1.0.0",
+  "url": "http://example.org/ValueSet/public-access-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/CodeSystem/public-access-cs"
+      }
+    ]
+  }
+}

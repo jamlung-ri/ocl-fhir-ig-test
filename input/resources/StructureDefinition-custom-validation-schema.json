@@ -1,0 +1,50 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "custom-validation-schema",
+  "url": "http://example.org/StructureDefinition/custom-validation-schema",
+  "version": "1.0.0",
+  "name": "CustomValidationSchema",
+  "title": "Custom Validation Schema",
+  "description": "Represents the OCL custom_validation_schema attribute",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "CodeSystem"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Custom Validation Schema",
+        "definition": "Represents the OCL custom_validation_schema attribute"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://example.org/StructureDefinition/custom-validation-schema"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      }
+    ]
+  }
+}

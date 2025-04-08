@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "LocaleValueSet",
+  "id": "locale-vs",
+  "title": "Locale Value Set",
+  "description": "Allowed values for OCL locales (default_locale and supported_locales)",
+  "version": "1.0.0",
+  "url": "http://example.org/ValueSet/locale-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/CodeSystem/locale-cs"
+      }
+    ]
+  }
+}

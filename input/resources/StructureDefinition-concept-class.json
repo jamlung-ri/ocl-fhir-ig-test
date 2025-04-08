@@ -1,0 +1,54 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "concept-class",
+  "url": "http://example.org/StructureDefinition/concept-class",
+  "version": "1.0.0",
+  "name": "ConceptClass",
+  "title": "Concept Class",
+  "description": "Represents the OCL concept_class attribute",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "CodeSystem.concept"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Concept Class",
+        "definition": "Represents the OCL concept_class attribute"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://example.org/StructureDefinition/concept-class"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "code"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://example.org/ValueSet/concept-class-vs"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "CIEL",
+  "meta": {
+    "profile": [
+      "http://example.org/StructureDefinition/ocl-source"
+    ]
+  },
+  "extension": [
+    {
+      "url": "http://example.org/StructureDefinition/source-type",
+      "valueString": "Interface Terminology"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/public-access",
+      "valueCode": "View"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/default-locale",
+      "valueCode": "en"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/short-code",
+      "valueString": "CIEL"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/custom-validation-schema",
+      "valueString": "OpenMRS"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "en"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "am"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "ar"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "bn"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "km"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "nl"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "fr"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "ht"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "id"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "it"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "rw"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "om"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "pt"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "ru"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "es"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "sw"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "ti"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "ur"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "vi"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/supported-locales",
+      "valueCode": "ne"
+    },
+    {
+      "url": "http://example.org/StructureDefinition/website",
+      "valueUrl": "https://CIELterminology.org"
+    }
+  ],
+  "url": "https://CIELterminology.org",
+  "identifier": [
+    {
+      "value": "249b13c8-72fa-4b96-8d3d-b200efed985e",
+      "system": "http://openconceptlab.org/external_id"
+    }
+  ],
+  "name": "CIEL",
+  "title": "Columbia International eHealth Laboratory Concept Dictionary",
+  "status": "active",
+  "content": "complete",
+  "description": "Columbia International eHealth Laboratory Concept Dictionary",
+  "publisher": "CIEL",
+  "copyright": "The Columbia International eHealth Laboratory (CIEL) dictionary is a shared open concept dictionary. CIEL is protected by copyright.",
+  "version": "HEAD",
+  "date": "2024-04-29T17:30:07.562424Z"
+}

@@ -1,0 +1,80 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "ConceptDatatypeCodeSystem",
+  "id": "concept-datatype-cs",
+  "title": "Concept Datatype Code System",
+  "description": "Code system for OCL concept datatype values",
+  "version": "1.0.0",
+  "url": "http://example.org/CodeSystem/concept-datatype-cs",
+  "concept": [
+    {
+      "code": "N/A",
+      "display": "Not Applicable",
+      "definition": "No datatype specified"
+    },
+    {
+      "code": "Boolean",
+      "display": "Boolean",
+      "definition": "True/False datatype"
+    },
+    {
+      "code": "Coded",
+      "display": "Coded",
+      "definition": "Coded value datatype"
+    },
+    {
+      "code": "Complex",
+      "display": "Complex",
+      "definition": "Complex datatype"
+    },
+    {
+      "code": "Date",
+      "display": "Date",
+      "definition": "Date datatype"
+    },
+    {
+      "code": "DateTime",
+      "display": "DateTime",
+      "definition": "Date and time datatype"
+    },
+    {
+      "code": "Document",
+      "display": "Document",
+      "definition": "Document datatype"
+    },
+    {
+      "code": "Float",
+      "display": "Float",
+      "definition": "Floating point number datatype"
+    },
+    {
+      "code": "Integer",
+      "display": "Integer",
+      "definition": "Integer datatype"
+    },
+    {
+      "code": "None",
+      "display": "None",
+      "definition": "No datatype"
+    },
+    {
+      "code": "Numeric",
+      "display": "Numeric",
+      "definition": "Numeric datatype"
+    },
+    {
+      "code": "Text",
+      "display": "Text",
+      "definition": "Text datatype"
+    },
+    {
+      "code": "Time",
+      "display": "Time",
+      "definition": "Time datatype"
+    }
+  ],
+  "caseSensitive": true,
+  "count": 13
+}

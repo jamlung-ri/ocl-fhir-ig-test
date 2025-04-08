@@ -1,0 +1,115 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "LocaleCodeSystem",
+  "id": "locale-cs",
+  "title": "Locale Code System",
+  "description": "Code system for OCL locale values based on the provided sample data",
+  "version": "1.0.0",
+  "url": "http://example.org/CodeSystem/locale-cs",
+  "concept": [
+    {
+      "code": "en",
+      "display": "English",
+      "definition": "English language"
+    },
+    {
+      "code": "es",
+      "display": "Spanish",
+      "definition": "Spanish language"
+    },
+    {
+      "code": "fr",
+      "display": "French",
+      "definition": "French language"
+    },
+    {
+      "code": "nl",
+      "display": "Dutch",
+      "definition": "Dutch language"
+    },
+    {
+      "code": "am",
+      "display": "Amharic",
+      "definition": "Amharic language"
+    },
+    {
+      "code": "ar",
+      "display": "Arabic",
+      "definition": "Arabic language"
+    },
+    {
+      "code": "bn",
+      "display": "Bengali",
+      "definition": "Bengali language"
+    },
+    {
+      "code": "km",
+      "display": "Khmer",
+      "definition": "Khmer language"
+    },
+    {
+      "code": "ht",
+      "display": "Haitian",
+      "definition": "Haitian Creole language"
+    },
+    {
+      "code": "id",
+      "display": "Indonesian",
+      "definition": "Indonesian language"
+    },
+    {
+      "code": "it",
+      "display": "Italian",
+      "definition": "Italian language"
+    },
+    {
+      "code": "rw",
+      "display": "Kinyarwanda",
+      "definition": "Kinyarwanda language"
+    },
+    {
+      "code": "om",
+      "display": "Oromo",
+      "definition": "Oromo language"
+    },
+    {
+      "code": "pt",
+      "display": "Portuguese",
+      "definition": "Portuguese language"
+    },
+    {
+      "code": "ru",
+      "display": "Russian",
+      "definition": "Russian language"
+    },
+    {
+      "code": "sw",
+      "display": "Swahili",
+      "definition": "Swahili language"
+    },
+    {
+      "code": "ti",
+      "display": "Tigrinya",
+      "definition": "Tigrinya language"
+    },
+    {
+      "code": "ur",
+      "display": "Urdu",
+      "definition": "Urdu language"
+    },
+    {
+      "code": "vi",
+      "display": "Vietnamese",
+      "definition": "Vietnamese language"
+    },
+    {
+      "code": "ne",
+      "display": "Nepali",
+      "definition": "Nepali language"
+    }
+  ],
+  "caseSensitive": true,
+  "count": 20
+}

@@ -1,0 +1,50 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "website",
+  "url": "http://example.org/StructureDefinition/website",
+  "version": "1.0.0",
+  "name": "Website",
+  "title": "Website",
+  "description": "Represents the OCL website attribute",
+  "fhirVersion": "4.0.1",
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "CodeSystem"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Website",
+        "definition": "Represents the OCL website attribute"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://example.org/StructureDefinition/website"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "type": [
+          {
+            "code": "url"
+          }
+        ]
+      }
+    ]
+  }
+}

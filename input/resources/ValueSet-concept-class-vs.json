@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ConceptClassValueSet",
+  "id": "concept-class-vs",
+  "title": "Concept Class Value Set",
+  "description": "Allowed values for OCL concept_class attribute",
+  "version": "1.0.0",
+  "url": "http://example.org/ValueSet/concept-class-vs",
+  "compose": {
+    "include": [
+      {
+        "system": "http://example.org/CodeSystem/concept-class-cs"
+      }
+    ]
+  }
+}
